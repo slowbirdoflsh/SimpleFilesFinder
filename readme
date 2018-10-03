@@ -1,0 +1,11 @@
+文件查找器
+
+想法来源：
+	1、培训文件的课件在非常零碎的文件夹内
+	2、JDK源码在文件夹内部 且自己Linux命令不太熟悉。。。
+	
+V1	2018/09/30
+输入文件夹路径和文件关键词，搜索结果显示在面板上
+问题：大批量文件中查找的速度慢且容易出现奔溃
+		Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+
